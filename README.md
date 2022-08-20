@@ -1,3 +1,6 @@
+This is a personal project, a Story Website about me and my experience on programming road.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
