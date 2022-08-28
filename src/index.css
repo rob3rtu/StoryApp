@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: 'StarWars';
+  src: local('StarWars'),url('./fonts/myFont.ttf') format('truetype');
+  font-weight: normal;
+}
