@@ -79,7 +79,7 @@ export const ActualApp = () => {
               </Text>
               <Text color={starwarsYellow} fontSize={["20"]}>
                 Robert here. Currently I’m studying Computer Science at Faculty
-                of Mathematics and Informatics, Univerity of Bucharest. I’m a
+                of Mathematics and Informatics, University of Bucharest. I’m a
                 competitive person trying to get the best results in everything
                 I do. Honest, motivated, innovative and creative, I am looking
                 to work in IT industry. Let’s see why you should consider hire
@@ -101,7 +101,7 @@ export const ActualApp = () => {
                 </Text>
                 <Text color={starwarsYellow}>
                   2021 to 2024 -{">"} Faculty of Mathematics and Informatics,
-                  Univerity of Bucharest
+                  University of Bucharest
                 </Text>
               </Box>
             </Flex>
@@ -156,7 +156,7 @@ export const ActualApp = () => {
               </Link>{" "}
               or{" "}
               <Link href="https://www.linkedin.com/in/robert-udrea/" isExternal>
-                LinkedIn <ExternalLinkIcon />
+                Linkedin <ExternalLinkIcon />
               </Link>
             </Text>
           </Animator>
