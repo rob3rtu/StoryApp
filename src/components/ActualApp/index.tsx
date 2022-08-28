@@ -1,4 +1,5 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { Box, Flex, Text, Link } from "@chakra-ui/react";
 import {
   Animator,
   batch,
@@ -21,7 +22,7 @@ export const ActualApp = () => {
 
   return (
     <Box bg="black">
-      <ScrollContainer>
+      <ScrollContainer key="whatKey">
         <ScrollPage key="1">
           <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
             <Flex h={"100vh"} w={"100vw"} justify="center" align="center">
@@ -72,11 +73,11 @@ export const ActualApp = () => {
 
         <ScrollPage key="3">
           <Animator animation={FadeUp}>
-            <Box w={["80vw", "100vw"]}>
+            <Box w={["80vw", "40vw"]}>
               <Text color={starwarsYellow} fontSize="150%" fontWeight="bold">
                 Hello there,
               </Text>
-              <Text color={starwarsYellow}>
+              <Text color={starwarsYellow} fontSize={["20"]}>
                 Robert here. Currently I’m studying Computer Science at Faculty
                 of Mathematics and Informatics, Univerity of Bucharest. I’m a
                 competitive person trying to get the best results in everything
@@ -91,7 +92,7 @@ export const ActualApp = () => {
         <ScrollPage key="4">
           <Animator animation={MoveIn(-1000, 0)}>
             <Flex h={"100vh"} w={"100vw"} justify="center" align="center">
-              <Box width="80vw">
+              <Box width={["90vw", "50vw"]} fontSize={["20"]}>
                 <Text color={starwarsYellow} fontSize="150%" fontWeight="bold">
                   Education
                 </Text>
@@ -110,7 +111,7 @@ export const ActualApp = () => {
         <ScrollPage key="5">
           <Animator animation={MoveIn(1000, 0)}>
             <Flex h={"100vh"} w={"100vw"} justify="center" align="center">
-              <Box color={starwarsYellow} maxWidth="80vw">
+              <Box color={starwarsYellow} width={["80vw", "50vw"]}>
                 <Text color={starwarsYellow} fontSize="150%" fontWeight="bold">
                   Experience
                 </Text>
@@ -141,9 +142,22 @@ export const ActualApp = () => {
 
         <ScrollPage key="6">
           <Animator animation={batch(Fade(), Sticky())}>
-            <Text color={starwarsYellow}>
-              That's it! If you liked that, you can contact me via Email or
-              LinkedIn
+            <Text
+              color={starwarsYellow}
+              fontSize={["20"]}
+              width={["90vw", "50vw"]}
+            >
+              That's it! If you liked that, you can contact me via{" "}
+              <Link
+                href="mailto:robertudrea2002@yahoo.ro?Subject=Hello%20there!"
+                isExternal
+              >
+                Email <ExternalLinkIcon />
+              </Link>{" "}
+              or{" "}
+              <Link href="https://www.linkedin.com/in/robert-udrea/" isExternal>
+                LinkedIn <ExternalLinkIcon />
+              </Link>
             </Text>
           </Animator>
         </ScrollPage>
