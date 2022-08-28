@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/StoryApp/static/css/main.e604e653.css",
+    "main.js": "/StoryApp/static/js/main.975cb710.js",
+    "static/js/787.28cb0dcd.chunk.js": "/StoryApp/static/js/787.28cb0dcd.chunk.js",
+    "static/media/myFont.ttf": "/StoryApp/static/media/myFont.c247ee6825d52f9d0862.ttf",
+    "index.html": "/StoryApp/index.html",
+    "main.e604e653.css.map": "/StoryApp/static/css/main.e604e653.css.map",
+    "main.975cb710.js.map": "/StoryApp/static/js/main.975cb710.js.map",
+    "787.28cb0dcd.chunk.js.map": "/StoryApp/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e604e653.css",
+    "static/js/main.975cb710.js"
+  ]
+}
